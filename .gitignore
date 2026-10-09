@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset files - do not upload Kaggle data
+data/*.csv
+
+# Trained model - keep the large model local
+models/*.pkl
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
